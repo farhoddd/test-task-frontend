@@ -1,0 +1,50 @@
+.productsPage {
+    min-height: 100vh;
+    background: #f5f5f5;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1a1a2e;
+}
+
+.nav {
+    display: flex;
+    gap: 24px;
+}
+
+.navLink {
+    color: #595959;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+
+    &:hover {
+        color: #1890ff;
+    }
+}
+
+.content {
+    padding: 32px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.tableCard {
+    border-radius: 8px;
+}
+
+.pageTitle {
+    margin-bottom: 24px;
+    color: #1a1a2e;
+}

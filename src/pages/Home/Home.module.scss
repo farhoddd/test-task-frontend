@@ -1,0 +1,86 @@
+.homePage {
+    min-height: 100vh;
+    background: #f5f5f5;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1a1a2e;
+}
+
+.nav {
+    display: flex;
+    gap: 24px;
+}
+
+.navLink {
+    color: #595959;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+
+    &:hover {
+        color: #1890ff;
+    }
+}
+
+.content {
+    padding: 32px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.tableCard {
+    border-radius: 8px;
+}
+
+.tableScroll {
+    max-height: calc(100vh - 250px);
+    overflow-y: auto;
+}
+
+.loadingMore {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+
+.endMessage {
+    text-align: center;
+    padding: 16px;
+    color: #999;
+}
+
+.pageTitle {
+    margin-bottom: 24px;
+    color: #1a1a2e;
+}
+
+.searchWrapper {
+    margin-bottom: 24px;
+}
+
+.searchInput {
+    max-width: 400px;
+    border-radius: 8px;
+
+    &:hover,
+    &:focus-within {
+        border-color: #1890ff;
+        box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.1);
+    }
+}
+
+.searchIcon {
+    color: #bfbfbf;
+}
